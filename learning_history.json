@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2026-08-29T18:22:46.174751Z",
+    "type": "REGULATORY_CIRCULAR_LEARNING",
+    "nmra_code": "KE",
+    "circular_title": "Kenya PPB 2026 Accelerated Reliance Guideline Circular",
+    "updates_applied": {
+      "reliance_timeline_months": 4
+    },
+    "status": "GRAPH_UPDATED_SUCCESSFULLY"
+  },
+  {
+    "timestamp": "2026-08-29T18:22:46.174867Z",
+    "type": "EMPIRICAL_QUERY_PATTERN_LEARNED",
+    "nmra_code": "KE",
+    "query_type": "Innovator_Reference_Product",
+    "strategy": "Reference_WHO_TRS_1033_Annex_10_SRA_Equivalence",
+    "status": "PATTERN_EMBEDDED_IN_GRAPH"
+  },
+  {
+    "timestamp": "2026-09-02T08:43:01.694855Z",
+    "type": "REGULATORY_CIRCULAR_LEARNING",
+    "nmra_code": "KE",
+    "circular_title": "Kenya PPB 2026 Accelerated Reliance Guideline Circular",
+    "updates_applied": {
+      "reliance_timeline_months": 4
+    },
+    "status": "GRAPH_UPDATED_SUCCESSFULLY"
+  },
+  {
+    "timestamp": "2026-09-02T08:43:01.695212Z",
+    "type": "EMPIRICAL_QUERY_PATTERN_LEARNED",
+    "nmra_code": "KE",
+    "query_type": "Innovator_Reference_Product",
+    "strategy": "Reference_WHO_TRS_1033_Annex_10_SRA_Equivalence",
+    "status": "PATTERN_EMBEDDED_IN_GRAPH"
+  }
+]

@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# System / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Testing & Temporary Logs
+*.log
+test_learning_history.json
