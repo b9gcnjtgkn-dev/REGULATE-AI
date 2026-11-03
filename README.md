@@ -1,5 +1,6 @@
 # REGULATE.AI — Global Healthcare Regulatory Reliance & Gap Engine
 
+[![CI: Core Engine Verification](https://github.com/b9gcnjtgkn-dev/REGULATE-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/b9gcnjtgkn-dev/REGULATE-AI/actions)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![Tests](https://img.shields.io/badge/tests-6%2F6%20PASSED-emerald.svg)](https://github.com/b9gcnjtgkn-dev/REGULATE-AI)
 [![Architecture](https://img.shields.io/badge/architecture-Zero--Hallucination%20Graph-sky.svg)](#architecture)
@@ -82,8 +83,7 @@ REGULATE.AI is built using Python 3 standard library abstractions (`dataclasses`
 
 ### 1. Run the Automated Unit Test Suite (6/6 Tests)
 ```bash
-cd "/Users/abhayrohilla/Desktop/FOUNDER MODE"
-python3 -m unittest discover -s tests
+python3 run_tests.py
 ```
 
 ### 2. Execute Full CLI Prototype & Demonstration

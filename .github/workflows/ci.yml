@@ -1,0 +1,24 @@
+name: REGULATE.AI CI — Core Engine Verification
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  verify-regulatory-engines:
+    name: Run Regulatory Compliance Engine Test Suite
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run REGULATE.AI Verification Suite (6/6 Tests)
+        run: python3 run_tests.py
